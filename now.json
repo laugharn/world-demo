@@ -1,3 +1,13 @@
 {
-  "name": "world-demo"
+  "builds": [
+    { "src": "www/root/package.json", "use": "@now/next@canary" }
+  ],
+  "name": "world-demo",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/www/root/$1"
+    }
+  ],
+  "version": 2
 }
