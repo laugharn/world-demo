@@ -1,1 +1,1 @@
-export default () => <div>Developing in { process.env.ENV }</div>
+export default () => <div>Developing in { process.env.ENV } at 12:08</div>
