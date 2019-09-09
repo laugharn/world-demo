@@ -1,4 +1,9 @@
 {
+  "build": {
+    "env": {
+      "ENV": "local"
+    }
+  },
   "builds": [
     { "src": "www/root/package.json", "use": "@now/next@canary" }
   ],
