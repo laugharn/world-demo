@@ -1,6 +1,7 @@
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { Fragment, useEffect } from "react";
 import Head from "next/head";
+import theme from '../themes/default'
 import { ThemeProvider } from "@material-ui/styles";
 
 export default ({ Component, pageProps, wrapper, wrapperProps = {} }) => {
@@ -14,7 +15,7 @@ export default ({ Component, pageProps, wrapper, wrapperProps = {} }) => {
   const Wrapper = wrapper || Fragment;
 
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={ theme }>
       <Head>
         <title>World</title>
       </Head>
