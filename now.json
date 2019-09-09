@@ -5,7 +5,7 @@
     }
   },
   "builds": [
-    { "src": "www/root/package.json", "use": "@now/next@canary" }
+    { "src": "www/root/next.config.js", "use": "@now/next@canary" }
   ],
   "name": "world-demo",
   "routes": [

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "next": "9.0.5"
+  },
+  "name": "@amherst/next",
+  "version": "0.0.1"
+}

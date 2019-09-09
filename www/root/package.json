@@ -1,9 +1,8 @@
 {
   "dependencies": {
-    "@amherst/core": "0.0.1",
-    "next": "9.0.5",
-    "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "@amherst/design": "0.0.1",
+    "@amherst/react": "0.0.1",
+    "next": "9.0.5"
   },
   "name": "www-root",
   "version": "0.0.1"

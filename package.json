@@ -1,4 +1,8 @@
 {
+  "name": "world",
   "private": true,
-  "workspaces": ["packages/*", "www/*"]
+  "workspaces": [
+    "packages/*",
+    "www/*"
+  ]
 }
