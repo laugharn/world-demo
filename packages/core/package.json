@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "react-use-auth": "0.4.2"
+  },
   "name": "@amherst/core",
   "peerDependencies": {
     "@amherst/design": "0.0.1",
