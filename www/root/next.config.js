@@ -5,6 +5,7 @@ const config = {
     ENV: process.env.ENV,
     SHA: process.env.SHA ? process.env.SHA : 'local',
   },
+  target: 'serverless',
   transpileModules: ['@amherst/core'],
 }
 
