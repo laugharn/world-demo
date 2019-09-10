@@ -1,8 +1,11 @@
+const withTM = require('next-transpile-modules')
+
 const config = {
   env: {
     ENV: process.env.ENV,
     SHA: process.env.SHA ? process.env.SHA : 'local',
-  }
+  },
+  transpileModules: ['@amherst/core'],
 }
 
-module.exports = config
+module.exports = withTM(config)

@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "next": "9.0.5"
+    "next": "9.0.5",
+    "next-transpile-modules": "2.3.1"
   },
   "name": "@amherst/next",
   "version": "0.0.1"
