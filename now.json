@@ -4,9 +4,7 @@
       "ENV": "local"
     }
   },
-  "builds": [
-    { "src": "www/root/next.config.js", "use": "@now/next" }
-  ],
+  "builds": [{ "src": "www/root/next.config.js", "use": "@now/next" }],
   "name": "world-demo",
   "routes": [
     {

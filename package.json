@@ -1,6 +1,39 @@
 {
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint": "6.3.0",
+    "eslint-config-prettier": "6.2.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "prettier": "1.18.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "plugin:prettier/recommended"
+    ],
+    "parser": "babel-eslint",
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "warn"
+    }
+  },
   "name": "world",
+  "prettier": {
+    "endOfLine": "auto",
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "all"
+  },
   "private": true,
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{js,jsx,json,ts,tsx,md,mdx,css,html,yml,yaml,scss,sass}\""
+  },
   "workspaces": [
     "packages/*",
     "www/*"

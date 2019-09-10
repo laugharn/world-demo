@@ -1,12 +1,12 @@
-import CssBaseline from "@material-ui/core/CssBaseline"
-import { Fragment, useEffect } from "react"
-import Head from "next/head"
+import CssBaseline from '@material-ui/core/CssBaseline'
+import { Fragment, useEffect } from 'react'
+import Head from 'next/head'
 import theme from '@amherst/design/themes/default'
-import { ThemeProvider } from "@material-ui/styles"
+import { ThemeProvider } from '@material-ui/styles'
 
 export default ({ Component, pageProps, wrapper, wrapperProps = {} }) => {
   useEffect(() => {
-    const jssStyles = document.querySelector("#jss-server-side")
+    const jssStyles = document.querySelector('#jss-server-side')
     if (jssStyles) {
       jssStyles.parentNode.removeChild(jssStyles)
     }
@@ -15,7 +15,7 @@ export default ({ Component, pageProps, wrapper, wrapperProps = {} }) => {
   const Wrapper = wrapper || Fragment
 
   return (
-    <ThemeProvider theme={ theme }>
+    <ThemeProvider theme={theme}>
       <Head>
         <title>World</title>
       </Head>

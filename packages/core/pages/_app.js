@@ -1,5 +1,5 @@
-import App from "next/app"
-import Container from "../components/container"
+import App from 'next/app'
+import Container from '../components/container'
 
 class MyApp extends App {
   render() {
