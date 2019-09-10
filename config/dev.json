@@ -1,6 +1,3 @@
 {
-  "AUTH0_AUDIENCE": "https://bungalo-dev.azurewebsites.net",
-  "AUTH0_CLIENT_ID": "jkq8Akm6ZuX9ncaTs3aDE2FBxQ8KkD36",
-  "AUTH0_DOMAIN": "bungalo-dev.auth0.com",
   "ENV": "dev"
 }
