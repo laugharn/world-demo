@@ -1,3 +1,3 @@
 export default () => {
-  return <div>Amherst World</div>
+  return <div>Welcome to Front</div>
 }
