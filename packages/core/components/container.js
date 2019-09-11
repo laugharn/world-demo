@@ -1,3 +1,4 @@
+import { AppBarWorld } from './app-bar'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import { Fragment, useEffect } from 'react'
 import Head from 'next/head'
@@ -17,9 +18,10 @@ export default ({ Component, pageProps, wrapper, wrapperProps = {} }) => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>World</title>
+        <title>Front</title>
       </Head>
       <CssBaseline />
+      <AppBarWorld />
       <Wrapper {...wrapperProps}>
         <Component {...pageProps} />
       </Wrapper>

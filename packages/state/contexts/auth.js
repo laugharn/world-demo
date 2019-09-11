@@ -2,7 +2,7 @@ import Cookie from 'js-cookie'
 import createUseContext from 'constate'
 import { useEffect, useState } from 'react'
 
-export const useAuth = ({ user: userProp }) => {
+const useAuth = ({ user: userProp }) => {
   const [user, setUser] = useState(userProp || {})
 
   const isAuthenticated = () => {

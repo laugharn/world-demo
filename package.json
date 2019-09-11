@@ -23,7 +23,7 @@
       "prettier/prettier": "warn"
     }
   },
-  "name": "world",
+  "name": "front",
   "prettier": {
     "endOfLine": "auto",
     "singleQuote": true,

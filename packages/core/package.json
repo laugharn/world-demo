@@ -1,10 +1,10 @@
 {
-  "name": "@amherst/core",
-  "peerDependencies": {
+  "dependencies": {
     "@amherst/design": "0.0.1",
     "@amherst/next": "0.0.1",
     "@amherst/react": "0.0.1",
     "@amherst/state": "0.0.1"
   },
+  "name": "@amherst/core",
   "version": "0.0.1"
 }
